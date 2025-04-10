@@ -60,10 +60,8 @@ const ContactSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl text-white font-bold mb-4">Contact Me!</h2>
           <p className="text-base lg:text-lg ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-            eligendi modi maxime officiis nam explicabo ipsa corporis numquam
-            nobis tenetur enim ab quia voluptas, quisquam nostrum fuga suscipit
-            libero ipsum.
+            Interested in working together or collaborating on a project? <br/>
+            Let’s connect! I'm always open to new opportunities and discussions
           </p>
           <div className="flex flex-wrap justify-center gap-4 mt-4 md:gap-8">
             {contactData.map((contact, index) => (

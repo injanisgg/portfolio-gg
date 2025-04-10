@@ -25,19 +25,18 @@ function HeroSection() {
                 1700, // wait 1s before replacing
                 "Frontend Developer",
                 1700,
-                "UI/UX Designer",
+                "UI Builder",
                 1700,
+                "Mobile Dev Enthusiast",
+                1700
               ]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
             />
           </h1>
-          <p className="text-gray-400 text-base sm:text-lg lg:text-xl mb-6">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
-            minima quo quae deleniti commodi repudiandae consequatur eaque unde
-            iusto! Nisi veniam qui commodi quo ut error impedit nobis laborum
-            maxime?
+          <p className="text-gray-400 text-base italic sm:text-lg lg:text-xl mb-6">
+            I build clean and user-friendly frontend experiences crafted with code and custom-designed interfaces.
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 text-white hover:bg-slate-200 mr-4">

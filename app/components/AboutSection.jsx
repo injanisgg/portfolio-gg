@@ -59,7 +59,8 @@ const AboutSection = () => {
         <Image alt='about me' src={'/images/about.JPG'} height={500} width={500}/>
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
             <h2 className='text-4xl text-white font-bold mb-4'>About Me</h2>
-            <p className='text-base lg:text-lg '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eligendi modi maxime officiis nam explicabo ipsa corporis numquam nobis tenetur enim ab quia voluptas, quisquam nostrum fuga suscipit libero ipsum.
+            <p className='text-base lg:text-lg text-justify'>
+                I'm an informatics engineering graduate passionate about frontend development. I specialize in turning ideas into responsive, user-focused interfaces often by customizing and building upon design templates. I've led teams, built various frontend projects, and am now expanding my skills into mobile app development.
             </p>
             <div className="flex flex-row mt-8">
                 <TabButton 

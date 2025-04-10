@@ -26,7 +26,7 @@ const projectsData = [
     {
         id: 3,
         title: "Skripsi Water Quality Index Classification",
-        description: "A machine learning model that classify water quality index whether the quality is safe or unsafe. This project created for college final project (thesis).",
+        description: "A machine learning model that classify water quality index whether the quality is safe or unsafe based on user input of enviromental parameters. This project created for college final project (thesis).",
         image: "/images/projects/wqi.png",
         tag: ['All', 'Web'],
         gitUrl: 'https://github.com/injanisgg/skripsi-wqi-prediction',
@@ -44,7 +44,7 @@ const projectsData = [
     {
         id: 5,
         title: "ATK HK Jaya - UI/UX Design ",
-        description: "User interface design for HK Jaya's stationery store information system, featuring intuitive navigation, organized product catalog layouts, and a responsive design tailored for a smooth user experience across devices.",
+        description: "User interface design for HK Jaya's stationery store information system, featuring organized product catalog layouts and a responsive design tailored for a smooth user experience across devices. pecial attention was given to user flow, ease of access to product details, and an overall layout that supports efficient browsing",
         image: "/images/projects/des-atk.png",
         tag: ['All', 'Design'],
         gitUrl: 'https://www.figma.com/design/SYmaXXfKd2xr7RY0lu020R/ATK-HK-JAYA?node-id=0-1&t=WzvXoZea03834Sz6-1',
@@ -53,7 +53,7 @@ const projectsData = [
     {
         id: 6,
         title: "Mental Health Detection - UI/UX Design",
-        description: "UI/UX design for a mental health detection platform aimed at helping users assess their mental well-being. The design focuses on clarity, accessibility, and empathy-driven user experience, with features like self-assessment forms, results visualization, and user guidance—built with a clean and calming interface.",
+        description: "UI/UX design for a mental health detection platform aimed at helping users assess their mental well-being. The design focuses on clarity, accessibility, and empathy-driven user experience, with features like self-assessment forms, results visualization, and user guidance built with a clean and calming interface.",
         image: "/images/projects/des-mhealth.png",
         tag: ['All', 'Design'],
         gitUrl: 'https://www.figma.com/design/tFj31Lu3We7HsfhE0sjKkb/Mental-health---adv?node-id=0-1&t=gFXYr1PnooWH6LI1-1',
@@ -121,6 +121,8 @@ const ProjectsSection = () => {
                         imgUrl={project.image}
                         gitUrl={project.gitUrl}
                         previewUrl={project.previewUrl}
+                        target={'_blank'}
+                        rel={'noopener noreferrer'}
                     /> 
                 </motion.li>
             ))
