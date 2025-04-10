@@ -11,7 +11,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
         style={{
           backgroundImage: `url(${imgUrl})`,
           backgroundSize: 'cover',
-          backgroundPositionX: 'center'
+          backgroundPositionX: 'center',
         }}
       >
         {/* Overlay placed inside the group */}

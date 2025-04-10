@@ -41,7 +41,7 @@ const ContactSection = () => {
                       rel="noopener noreferrer"
                       className="flex flex-col items-center w-20"
                     >
-                      <div className="w-16 h-16 flex items-center justify-center bg-gradient-to-r from-pink-500 to-purple-500 rounded-full transition">
+                      <div className="w-16 h-16 flex items-center justify-center bg-gradient-to-r from-pink-500 to-purple-500 rounded-xl transition">
                         <FontAwesomeIcon icon={contact.icon} className="text-2xl text-white" />
                       </div>
                       <span className="mt-2 text-sm text-white text-center">{contact.label}</span>
