@@ -2,6 +2,7 @@
 import React, { useState, useTransition } from 'react';
 import Image from 'next/image';
 import TabButton from './TabButton';
+import { motion } from 'framer-motion';
 
 const TAB_DATA = [
     {
@@ -46,7 +47,14 @@ const AboutSection = () => {
     };
 
   return (
-    <section className='text-white'>
+    <motion.section 
+        id='about' 
+        className='text-white scroll-mt-20'
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
+    >
       <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
         <Image alt='about me' src={'/images/about.JPG'} height={500} width={500}/>
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
@@ -76,7 +84,7 @@ const AboutSection = () => {
             <div className="mt-8">{TAB_DATA.find((t) => t.id === tab).content}</div>
         </div>
       </div>
-    </section>
+    </motion.section>
   )
 }
 
