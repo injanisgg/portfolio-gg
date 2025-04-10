@@ -46,13 +46,13 @@ const ContactSection = () => {
     >
       <div className="text-white flex flex-col justify-center md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         {/* photo */}
-        <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+        <div className="rounded-full bg-[#1E1E2F] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
           <Image
-            src={"/images/profile.png"}
+            src={"/images/contact.png"}
             alt="profile"
-            className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            width={350}
-            height={350}
+            className="absolute transform -translate-x-1/2 -translate-y-[42%] top-1/2 left-1/2 rounded-b-full"
+            width={400}
+            height={400}
           />
         </div>
 
@@ -63,19 +63,19 @@ const ContactSection = () => {
             Interested in working together or collaborating on a project? <br/>
             Let’s connect! I'm always open to new opportunities and discussions
           </p>
-          <div className="flex flex-wrap justify-center gap-4 mt-4 md:gap-8">
+          <div className="flex flex-wrap justify-start gap-4 mt-4 md:gap-8">
             {contactData.map((contact, index) => (
               <Link
                 key={index}
                 href={contact.path}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex flex-col items-center w-20"
+                className="flex flex-col items-center w-12 md:w-20"
               >
-                <div className="w-16 h-16 flex items-center justify-center bg-gradient-to-r from-secondary-500 to-primary-500 rounded-xl transition">
+                <div className="size-8 md:w-14 md:h-14 flex items-center justify-center bg-gradient-to-r from-secondary-500 to-primary-500 rounded-xl transition">
                   <FontAwesomeIcon
                     icon={contact.icon}
-                    className="text-2xl lg:text-7xl text-white"
+                    className="text-4xl lg:text-7xl text-white md:text-gray-600 md:hover:text-white"
                   />
                 </div>
                 <span className="mt-2 text-sm text-white text-center">

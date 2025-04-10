@@ -37,7 +37,7 @@ function Navbar() {
         <Link 
             href={'/'} className='text-2xl text-white font-semibold'
         >
-            PORTFOLIO GG
+            Portfolio
         </Link>
         <div className="mobile-menu block md:hidden">
             {

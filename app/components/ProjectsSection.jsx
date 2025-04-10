@@ -34,7 +34,7 @@ const projectsData = [
     },
     {
         id: 4,
-        title: "Hactiv8 Capstone Mon Chérie E-Commerce",
+        title: "Hacktiv8 Capstone Mon Chérie Ecommerce",
         description: "A capstone project developed for the Studi Independen program at Hacktiv8, under the ReactJS Frontend Web Developer track. This e-commerce website features a modern user interface, showcasing product listings, user authentication and shopping cart functionality.",
         image: "/images/projects/cherie.png",
         tag: ['All', 'Web'],
