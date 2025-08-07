@@ -31,7 +31,7 @@ const ContactSection = () => {
     {
       icon: faSquareEnvelope,
       label: "Email",
-      path: "mailto:forggdev@gmail.com",
+      path: "mailto:suginiinzani@gmail.com",
     },
   ];
 
