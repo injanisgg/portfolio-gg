@@ -30,7 +30,7 @@ const projectsData = [
         image: "/images/projects/wqi.png",
         tag: ['All', 'Web'],
         gitUrl: 'https://github.com/injanisgg/skripsi-wqi-prediction',
-        previewUrl: '/'
+        previewUrl: 'https://skripsi-wqi-fe.vercel.app/'
     },
     {
         id: 4,
