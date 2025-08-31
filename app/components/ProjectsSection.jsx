@@ -29,7 +29,7 @@ const projectsData = [
         description: "A machine learning model that classify water quality index whether the quality is safe or unsafe based on user input of enviromental parameters. This project created for college final project (thesis).",
         image: "/images/projects/wqi.png",
         tag: ['All', 'Web'],
-        gitUrl: 'https://github.com/injanisgg/skripsi-wqi-prediction',
+        gitUrl: 'https://github.com/injanisgg/skripsi-fe',
         previewUrl: 'https://skripsi-wqi-fe.vercel.app/'
     },
     {
