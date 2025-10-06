@@ -80,6 +80,24 @@ const TAB_DATA = [
           />
           <span className="text-sm">NextJS</span>
         </li>
+        <li className="flex flex-col justify-center items-center gap-1">
+          <Image
+            alt={"img"}
+            src={"/images/ts.png"}
+            width={50}
+            height={50}
+          />
+          <span className="text-sm">Typescript</span>
+        </li>
+        <li className="flex flex-col justify-center items-center gap-1">
+          <Image
+            alt={"img"}
+            src={"/images/responsive.png"}
+            width={50}
+            height={50}
+          />
+          <span className="text-sm">Responsive</span>
+        </li>
       </ul>
     ),
   },
@@ -165,13 +183,14 @@ const AboutSection = () => {
       transition={{ duration: 0.5 }}
       viewport={{ once: true }}
     >
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           alt={"img"}
           id="about me"
-          src={"/images/about.jpg"}
+          src={"/images/gg-wisuda.jpg"}
           height={500}
           width={500}
+          className="justify-self-center lg:justify-self-start"
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl text-white font-bold mb-4">About Me</h2>

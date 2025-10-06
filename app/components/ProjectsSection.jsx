@@ -104,7 +104,7 @@ const ProjectsSection = () => {
         <ProjectTag onClick={handleTagChange} name={'Web'} isSelected={tag === 'Web'}/>
         <ProjectTag onClick={handleTagChange} name={'Design'} isSelected={tag === 'Design'}/>
       </div>
-      <ul ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12'>
+      <ul ref={ref} className='grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12'>
         {
             filteredProjects.map((project, index) => (
                 <motion.li

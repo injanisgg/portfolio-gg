@@ -57,22 +57,22 @@ const ContactSection = () => {
         </div>
 
         {/* contact */}
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+        <div className="mt-4 md:mt-0 text-left flex flex-col items-center md:items-start h-full">
           <h2 className="text-4xl text-white font-bold mb-4">Contact Me!</h2>
-          <p className="text-base lg:text-lg ">
+          <p className="text-base text-center md:text-start lg:text-lg ">
             Interested in working together or collaborating on a project? <br/>
             Let’s connect! I'm always open to new opportunities and discussions
           </p>
-          <div className="flex flex-wrap justify-start gap-4 mt-4 md:gap-8">
+          <div className="flex flex-wrap justify-start gap-4 mt-4 lg:gap-8">
             {contactData.map((contact, index) => (
               <Link
                 key={index}
                 href={contact.path}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex flex-col items-center w-12 md:w-20"
+                className="flex flex-col items-center w-12 lg:w-20"
               >
-                <div className="size-8 md:w-14 md:h-14 flex items-center justify-center bg-gradient-to-r from-secondary-500 to-primary-500 rounded-xl transition">
+                <div className="size-7 lg:w-14 lg:h-14 flex items-center justify-center bg-gradient-to-r from-secondary-500 to-primary-500 rounded-xl transition">
                   <FontAwesomeIcon
                     icon={contact.icon}
                     className="text-4xl lg:text-7xl text-white md:text-gray-600 md:hover:text-white"
