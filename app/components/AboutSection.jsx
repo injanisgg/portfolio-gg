@@ -13,6 +13,7 @@ import {
   faPython,
   faKaggle,
 } from "@fortawesome/free-brands-svg-icons";
+import { faDatabase } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const TAB_DATA = [
@@ -30,55 +31,8 @@ const TAB_DATA = [
           <span className="text-sm">CSS</span>
         </li>
         <li className="flex flex-col justify-center items-center gap-1">
-          <FontAwesomeIcon icon={faFigma} className="text-5xl" />
-          <span className="text-sm">Figma</span>
-        </li>
-        <li className="flex flex-col justify-center items-center gap-1">
-          <FontAwesomeIcon icon={faKaggle} className="text-5xl" />
-          <span className="text-sm">Kaggle</span>
-        </li>
-        <li className="flex flex-col justify-center items-center gap-1">
           <FontAwesomeIcon icon={faJs} className="text-5xl" />
           <span className="text-xs">Javascript</span>
-        </li>
-        <li className="flex flex-col justify-center items-center gap-1">
-          <FontAwesomeIcon icon={faReact} className="text-5xl" />
-          <span className="text-sm">ReactJS</span>
-        </li>
-        <li className="flex flex-col justify-center items-center gap-1">
-          <FontAwesomeIcon icon={faBootstrap} className="text-5xl" />
-          <span className="text-sm">Bootstrap</span>
-        </li>
-        <li className="flex flex-col justify-center items-center gap-1">
-          <FontAwesomeIcon icon={faPython} className="text-5xl" />
-          <span className="text-sm">Python</span>
-        </li>
-        <li className="flex flex-col justify-center items-center gap-1">
-          <Image
-            alt={"img"}
-            src={"/images/tailwind-120.png"}
-            width={50}
-            height={50}
-          />
-          <span className="text-sm">Tailwind</span>
-        </li>
-        <li className="flex flex-col justify-center items-center gap-1">
-          <Image
-            alt={"img"}
-            src={"/images/vite-120.png"}
-            width={50}
-            height={50}
-          />
-          <span className="text-sm">Vite</span>
-        </li>
-        <li className="flex flex-col justify-center items-center gap-1">
-          <Image
-            alt={"img"}
-            src={"/images/nextjs-120.png"}
-            width={50}
-            height={50}
-          />
-          <span className="text-sm">NextJS</span>
         </li>
         <li className="flex flex-col justify-center items-center gap-1">
           <Image
@@ -92,11 +46,89 @@ const TAB_DATA = [
         <li className="flex flex-col justify-center items-center gap-1">
           <Image
             alt={"img"}
+            src={"/images/tailwind-120.png"}
+            width={50}
+            height={50}
+          />
+          <span className="text-sm">Tailwind</span>
+        </li>
+        <li className="flex flex-col justify-center items-center gap-1">
+          <FontAwesomeIcon icon={faBootstrap} className="text-5xl" />
+          <span className="text-sm">Bootstrap</span>
+        </li>
+        <li className="flex flex-col justify-center items-center gap-1">
+          <Image
+            alt={"img"}
             src={"/images/responsive.png"}
             width={50}
             height={50}
           />
           <span className="text-sm">Responsive</span>
+        </li>
+        <li className="flex flex-col justify-center items-center gap-1">
+          <FontAwesomeIcon icon={faReact} className="text-5xl" />
+          <span className="text-sm">ReactJS</span>
+        </li>
+        <li className="flex flex-col justify-center items-center gap-1">
+          <Image
+            alt={"img"}
+            src={"/images/nextjs-120.png"}
+            width={50}
+            height={50}
+          />
+          <span className="text-sm">NextJS</span>
+        </li>
+        <li className="flex flex-col justify-center items-center gap-1">
+          <Image
+            alt={"img"}
+            src={"/images/vite-120.png"}
+            width={50}
+            height={50}
+          />
+          <span className="text-sm">Vite</span>
+        </li>
+        <li className="flex flex-col justify-center items-center gap-1">
+          <FontAwesomeIcon icon={faFigma} className="text-5xl" />
+          <span className="text-sm">Figma</span>
+        </li>
+        <li className="flex flex-col justify-center items-center gap-1">
+          <Image
+            alt={"img"}
+            src={"/images/canva.png"}
+            width={50}
+            height={50}
+          />
+          <span className="text-sm">Canva</span>
+        </li>
+        <li className="flex flex-col justify-center items-center gap-1">
+          <FontAwesomeIcon icon={faKaggle} className="text-5xl" />
+          <span className="text-sm">Kaggle</span>
+        </li>
+        <li className="flex flex-col justify-center items-center gap-1">
+          <FontAwesomeIcon icon={faPython} className="text-5xl" />
+          <span className="text-sm">Python</span>
+        </li>
+        <li className="flex flex-col justify-center items-center gap-1">
+          <FontAwesomeIcon icon={faDatabase} className="text-5xl" />
+          <span className="text-sm">Database</span>
+        </li>
+        <li className="flex flex-col justify-center items-center gap-1">
+          <Image
+            alt={"img"}
+            src={"/images/mysql.png"}
+            width={50}
+            height={50}
+          />
+          <span className="text-sm">MySQL</span>
+        </li>
+        <li className="flex flex-col justify-center items-center gap-1">
+          <Image
+            alt={"img"}
+            src={"/images/dbeaver.png"}
+            width={50}
+            height={50}
+          />
+          <span className="text-sm">DBeaver</span>
         </li>
       </ul>
     ),
@@ -121,12 +153,23 @@ const TAB_DATA = [
         <li className="flex flex-col md:flex-row gap-3 items-center">
           <Image
             alt={"img"}
+            src={"/images/sml.png"}
+            width={50}
+            height={50}
+          />
+          <p className="text-white text-center md:text-left">
+            Data Developer - PT Sarana Maju Lestari (SML Tech) (Oct 2025 - Present)
+          </p>
+        </li>
+        <li className="flex flex-col md:flex-row gap-3 items-center">
+          <Image
+            alt={"img"}
             src={"/images/steradian.png"}
             width={50}
             height={50}
           />
           <p className="text-white text-center md:text-left">
-            Information Technology Intern - PT.Steradian Data Optima (Feb - Jul
+            Information Technology Intern - PT Steradian Data Optima (Feb - Jul
             2024)
           </p>
         </li>
