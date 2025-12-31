@@ -157,9 +157,14 @@ const TAB_DATA = [
             width={50}
             height={50}
           />
-          <p className="text-white text-center md:text-left">
-            Data Developer - PT Sarana Maju Lestari (SML Tech) (Oct 2025 - Present)
-          </p>
+          <div className="flex flex-col justify-start gap-2">
+            <p className="text-white text-center md:text-left">
+              Frontend Developer - PT Sarana Maju Lestari (Dec 2025 - Present)
+            </p>
+            <p className="text-white text-center md:text-left">
+              Data Developer - PT Sarana Maju Lestari (Oct 2025 - Dec 2025)
+            </p>
+          </div>
         </li>
         <li className="flex flex-col md:flex-row gap-3 items-center">
           <Image
